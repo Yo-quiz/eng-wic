@@ -1,23 +1,23 @@
 const yoKaiList = [
-    { name: "Injustio", img: "Injustio.png" },
-    { name: "Malicia", img: "Malicia.png" },
-    { name: "Implacablio", img: "Implacablio.png" },
-    { name: "Inaguantablio", img: "Inaguantablio.png" },
-    { name: "Destrukto", img: "Destrukto.png" },
-    { name: "Chupatodo", img: "Chupatodo.png" },
-    { name: "Aterrahorror", img: "Aterrahorror.png" },
-    { name: "Apéstula", img: "Apestula.png" },
-    { name: "Kappamalo", img: "Kappamalo.png" },
-    { name: "Sombrío", img: "Sombrio.png" },
-    { name: "Pillastre", img: "Pillastre.png" },
-    { name: "Toragorero", img: "Toragorero.png" },
-    { name: "Cardado", img: "Cardado.png" },
-    { name: "Trampeida", img: "Trampeida.png" },
-    { name: "Malisnia", img: "Malisnia.png" },
-  { "name": "Ogu Togu Mogu", aliases: ["Ogu Togu Mogu", "Ogu, Togu y Mogu", "Ogu, Togu & Mogu", "Ogutogumogu"], "img": "Ogu_Togu_Mogu.png" },
-  { "name": "Titilón", "img": "Titilon.png" },
-  { "name": "Transeuntio", "img": "Transeuntio.png" },
-  { "name": "Maquinador", "img": "Maquinador.png" },
+    { name: "Unfairy", img: "Injustio.png" },
+    { name: "Unkaind", img: "Malicia.png" },
+    { name: "Untidy", img: "Implacablio.png" },
+    { name: "Unpleasant", img: "Inaguantablio.png" },
+    { name: "Unkeen", img: "Destrukto.png" },
+    { name: "Grublappa", img: "Chupatodo.png" },
+    { name: "Madmunch", img: "Aterrahorror.png" },
+    { name: "Smogsmella", img: "Apestula.png" },
+    { name: "Mad Kappa", img: "Kappamalo.png" },
+    { name: "Shamasol", img: "Sombrio.png" },
+    { name: "Gnomine", img: "Pillastre.png" },
+    { name: "Defectabull", img: "Toragorero.png" },
+    { name: "Feargus", img: "Cardado.png" },
+    { name: "Scaremaiden", img: "Trampeida.png" },
+    { name: "Wrongnek", img: "Malisnia.png" },
+  { "name": "Ogu Togu Mogu", aliases: ["Ogu Togu Mogu", "Ogu, Togu and Mogu", "Ogu, Togu & Mogu", "Ogutogumogu"], "img": "Ogu_Togu_Mogu.png" },
+  { "name": "Flicker", "img": "Titilon.png" },
+  { "name": "Loiter", "img": "Transeuntio.png" },
+  { "name": "Schemer", "img": "Maquinador.png" },
 ];
 
 let score = 0; 
@@ -141,7 +141,7 @@ function showCongratsImage() {
 
     // Título
     const title = document.createElement("h2");
-    title.textContent = `¡Enhorabuena! Has adivinado todos los Yo-kai en ${tiempoTotal}`;
+    title.textContent = `Congrats! Youve guessed all the Yo-kai in ${tiempoTotal}`;
     title.style.marginTop = "40px";
     title.style.marginBottom = "30px";
     title.style.fontSize = "22px";
@@ -149,7 +149,7 @@ function showCongratsImage() {
     // Texto Twitter
     const followText = document.createElement("p");
     followText.innerHTML = `
-        Si te ha gustado, ¿por qué no seguirme en twitter?: 
+        If you liked it, why not follow me on twitter?: 
         <a href="https://x.com/salty_baconV2" target="_blank" style="color:#4fc3ff; text-decoration:none;">
         @Salty_BaconV2
         </a>
